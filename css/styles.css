@@ -395,10 +395,11 @@ img {
 .container-team {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   gap: 72px 16px;
 }
-
+.flex-el-team {
+}
 .section-title {
   margin-top: 0;
   margin-bottom: 72px;
