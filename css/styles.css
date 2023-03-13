@@ -64,8 +64,6 @@ img {
 .main-nav {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .logo {
@@ -258,9 +256,11 @@ img {
   background-color: var(--title-text-color);
   text-align: center;
   padding: 112px 0;
+  margin: 0 auto;
   background-size: cover;
   background-repeat: no-repeat;
-  width: 100%;
+  max-width: 428px;
+  height: 432px;
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
@@ -331,13 +331,6 @@ img {
 
   padding: 0;
   margin: 0;
-
-  gap: 72px 16px;
-}
-
-.list-item {
-  width: 100%;
-  margin-bottom: 72px;
 }
 
 .list :last-child {
@@ -505,14 +498,6 @@ img {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* padding: 0;
-  margin: 0; */
-
-  /* align-items: center;
-  gap: 24px;
-  width: 100%;
-  height: 100%; */
-
   gap: 72px 16px;
 }
 
@@ -736,7 +721,6 @@ img {
 .footer-soc-link {
   width: 40px;
   height: 40px;
-  margin-bottom: 72px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
   display: flex;
@@ -825,7 +809,7 @@ img {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-left: 24px;
+  margin: 0 auto;
   padding: 0;
   font-size: 16px;
   letter-spacing: 0.04em;
@@ -867,8 +851,11 @@ img {
   padding: 24px;
   padding-top: 72px;
 
-  width: 408px;
-  min-height: 584px;
+  width: 95%;
+  max-width: 392px;
+  height: 95%;
+  max-height: 586px;
+  overflow: scroll;
 
   background-color: #fcfcfc;
 
